@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startup Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVBAR / HERO ===== -->
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">Start<span>Up</span></div>
+
+      <!-- desktop links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- hamburger for mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Launch your product with confidence</h1>
+      <p>Everything you need to build, ship, and grow your next big idea.</p>
+      <a href="#pricing" class="btn">Get Started →</a>
+    </div>
+  </header>
+
+
+  <section id="features" class="section features">
+    <h2 class="section-title">Features</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Fast performance</h3>
+        <p>Optimized code and blazing-fast CDN ensure instant load times.</p>
+      </div>
+      <div class="card">
+        <h3>Responsive design</h3>
+        <p>Looks beautiful on desktops, tablets, and phones—no extra work.</p>
+      </div>
+      <div class="card">
+        <h3>Easy customization</h3>
+        <p>Clean, commented code lets you tweak colors, fonts, and layout in minutes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="about-img"></div>
+    <div class="about-text">
+      <h2>Built for creators &amp; teams</h2>
+      <p>
+        We focus on the tech, so you can focus on your vision. Our platform combines
+        scalability, rock-solid security, and a delightful developer experience.
+      </p>
+      <a href="#contact" class="btn-outline">Talk to sales</a>
+    </div>
+  </section>
+
+  
+  <section id="pricing" class="section pricing">
+    <h2 class="section-title">Simple, transparent pricing</h2>
+    <div class="pricing-tables">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <p class="price">$0<span>/mo</span></p>
+        <ul>
+          <li>1 project</li>
+          <li>Basic analytics</li>
+          <li>Email support</li>
+        </ul>
+        <a href="#" class="btn-small">Choose</a>
+      </div>
+      <div class="price-card price-card--highlight">
+        <h3>Pro</h3>
+        <p class="price">$19<span>/mo</span></p>
+        <ul>
+          <li>Unlimited projects</li>
+          <li>Advanced analytics</li>
+          <li>Priority support</li>
+        </ul>
+        <a href="#" class="btn-small">Choose</a>
+      </div>
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <p class="price">Custom</p>
+        <ul>
+          <li>Dedicated infra</li>
+          <li>SSO &amp; compliance</li>
+          <li>24/7 phone support</li>
+        </ul>
+        <a href="#" class="btn-small">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section cta">
+    <h2>Ready to start?</h2>
+    <p>Sign up today and see your idea take flight.</p>
+    <a href="#" class="btn">Create Account</a>
+  </section>
+
+  <section class="contact-form" id="form">
+    <h2 class="section-title">Contact Us</h2>
+    <form action="https://getform.io/f/bdrnelob" method="POST" class="form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your_email@example.com" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message ..." required></textarea>
+        </div>
+        <button class="btn" type="submit">Send message</button>
+    </form>
+  </section>
+
+
+  <footer class="footer">
+    <p>&copy; 2025 StartUp. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
